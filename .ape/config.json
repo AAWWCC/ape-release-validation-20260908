@@ -1,0 +1,16 @@
+{
+  "shipping": {
+    "auto_merge": true,
+    "target": {
+      "origin": "https://github.com/AAWWCC/ape-release-validation-20260908.git",
+      "repository": "AAWWCC/ape-release-validation-20260908",
+      "base": "main"
+    }
+  },
+  "gates": {
+    "required_remote_checks": true
+  },
+  "test_commands": {
+    "full": "npm test"
+  }
+}
